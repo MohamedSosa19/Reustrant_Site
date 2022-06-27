@@ -1,0 +1,141 @@
+.home{
+    height: 600px;
+    background-image: url(images/shutterstock_277750193.jpg);
+    background-size: 100% 100%;
+}
+
+h1{
+    color: #fff;
+}
+.home .caption{
+
+    text-align: center;
+    padding: 60px;
+    
+}
+.home .caption p{
+    color: #FFF;
+    font-family: 'Lobster', cursive;
+}
+
+.btn1,.btn2{
+    background-color: transparent;
+    border: none;
+    padding: 10px 15px;
+}
+.btn1{
+    background-color: #c1ab84;
+
+}
+.btn2{
+    background-color: #fff;
+}
+
+.home .navbar{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 50px;
+    
+}
+/* Add a black background color to the top navigation */
+
+
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+  /* Change the color of links on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+  /* Add a color to the active/current link */
+.navbar a.active {
+    background-color: #ddd;
+    color: white;
+}
+
+.chef{
+    background-color: tomato;
+}
+
+.chef_img{
+
+    width: 40%;
+    
+}
+.chef .chef_info{
+    text-align: center;
+    width: 60%;
+    float: right;
+    margin: 200px 0px;
+}
+
+.chef_img img{
+    width: 100%;
+    float: left;
+}
+
+span{
+    color: #f2c208;
+    font-family: 'The Nautigal', cursive;
+    font-size: 30px;
+}
+
+.chef_info p {
+    padding: 10px;
+}
+
+.chef_info button{
+
+    background-color: transparent;
+    border: solid #000 3px;
+    padding: 10px;
+}
+
+.clr{
+    clear: both;
+}
+
+
+.overlay{
+    height: 400px;
+    background-image: url(images/bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.meals{
+    margin-top: 50px;
+}
+
+.meal{
+    width: 25%;
+    text-align: center;
+    float: left;
+
+}
+.meal img{
+    width: 100%;
+    border-radius: 50%;
+}
+.meal p{
+    padding: 10px;
+}
+
+.meal h2{
+    padding: 7px;
+}
+
+.meal .brdr{
+    width: 20%;
+    height: 3px;
+    background-color:teal;
+    margin: auto;
+}
+
